@@ -1,0 +1,28 @@
+{
+    "title": "Ta'lim",
+    "subtitle": "Men universitet va turli onlayn kurslar orqali dasturlash bo‘yicha bilimlarimni chuqurlashtirdim. Ilmiy tadqiqotlarim va amaliy tajribamdan yangi loyihalar yaratishda foydalanaman.",
+    "educationData": [
+      {
+        "name": "Toshkent Axborot Texnologiyalari Universiteti",
+        "year": "Sen 2017 - May 2021",
+        "level": "Kompyuter muhandisligi bo‘yicha bakalavr",
+        "profession": "Talaba",
+        "description": "Universitet davrida dasturlashga bo‘lgan qiziqishim ortdi. O‘qish davomida algoritmlar, ma’lumot tuzilmalari va dasturlash tillarini o‘rgandim. Ayniqsa, HTML, CSS, JavaScript va React bilan ishlashga e’tibor qaratdim, asosan veb-dasturlash sohasida."
+      },
+      {
+        "name": "Dasturlash asoslari kursi (C++)",
+        "year": "2018 - 2019",
+        "level": "Algoritmlarni qanday yechishni tushundim",
+        "profession": "Talaba",
+        "description": "Dasturlash asoslari kursida qatnashish orqali algoritmlar bo‘yicha chuqurroq tushunchaga ega bo‘ldim. Shart operatorlari, sikllar, ma’lumot tuzilmalari va rekursiya kabi asosiy tushunchalar bo‘yicha bilimlarim mustahkamlandi. Bu bilimlar veb-dasturlashda, jumladan, JavaScript va React bilan samarali ishlashimga yordam berdi. Kod yozish uslubim va muammolarni tizimli hal qilish qobiliyatim sezilarli darajada yaxshilandi."
+      },
+      {
+        "name": "Frontend kursi",
+        "year": "2019 - 2020",
+        "level": "Junior Veb Dasturchi",
+        "profession": "Talaba",
+        "description": "Veb-dasturlash kursida qatnashish orqali veb-sayt yaratish jarayoni bo‘yicha chuqur bilimga ega bo‘ldim. Shuningdek, React yordamida dinamik foydalanuvchi interfeyslarini ishlab chiqish bo‘yicha tajriba orttirdim. Kurs davomida moslashuvchan dizayn, API bilan ishlash va state management kabi muhim tushunchalarni o‘zlashtirdim."
+      }
+    ]
+  }
+  

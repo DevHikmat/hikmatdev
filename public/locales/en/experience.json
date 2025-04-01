@@ -1,0 +1,28 @@
+{
+    "title": "Work History",
+    "subtitle": "During my experience in web programming, I worked on various projects. I also gained experience in responsive design and API integration. I focused on improving code quality through practical projects.",
+    "experienceData": [
+    {
+      "name": "WEBSTAR IT ACADEMY",
+      "year": "01.05.2022",
+      "level": "Frontend Mentor",
+      "profession": "Mentor",
+      "description": "I taught web programming for a year. I taught students the basics of HTML, CSS, JavaScript, and React, and helped them consolidate their knowledge through practical exercises. I used understandable and interactive methods in the teaching process"
+    },
+    {
+      "name": "WEBSTAR IT ACADEMY",
+      "year": "2022-2023",
+      "level": "frontend of webstar quiz app",
+      "profession": "Software engineer & Mentor",
+      "description": "I developed the entire frontend of the Quiz App project and integrated it with the backend. I created a responsive design using React and Ant-design, handled state management using Redux. I loaded questions via API and sent user results to the server."
+    },
+    {
+      "name": "WEBSTAR IT ACADEMY",
+      "year": "2023 - present",
+      "level": "Frontend of Webstar gamification app",
+      "profession": "Software engineer & Mentor",
+      "description": "The goal of the webstar gamification project is to create competition among students in the learning center. Basically, students take tests from the beginning to the end of the month in sections, and after collecting enough points in one section, the next section opens automatically. Most importantly, they keep track of where they are in the center."
+    }
+  ]
+  }
+  

@@ -1,0 +1,63 @@
+@import "../../styles/var";
+.my-services {
+  &-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  &-item {
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: $white;
+    padding: 50px 25px 42px;
+    width: calc((100% - 40px) / 3);
+    position: relative;
+    overflow: hidden;
+    height: 220px;
+    &:hover .backword {
+      top: 0;
+    }
+    > svg {
+      color: $primary;
+      width: 60px;
+      height: 60px;
+      margin-bottom: 21px;
+    }
+    h4 {
+      margin-bottom: 18px;
+    }
+    .backword {
+      transition: all 0.7s ease;
+      padding: 50px 25px 0;
+      height: 100%;
+      width: 100%;
+      background-color: $white;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      h4 {
+        margin-bottom: 22px;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+      a {
+        color: $primary;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 560px) {
+  .my-services {
+    &-content {
+      gap: 20px;
+    }
+    &-item {
+      width: 100%;
+    }
+  }
+}

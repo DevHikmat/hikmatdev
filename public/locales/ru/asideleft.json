@@ -1,0 +1,52 @@
+{
+    "fullname": "Хикматулло Муллажонов",
+    "job": "Фронтенд-разработчик",
+    "languages": "Языки",
+    "skills": "Навыки",
+    "extra_skills": "Дополнительные навыки",
+    "download": "Скачать",
+    "privateData": {
+      "residence": "Место жительства",
+      "residence_value": "Квартира",
+      "age": "Возраст",
+      "age_value": "{{age}}",
+      "freelance": "Фриланс",
+      "freelance_value": "Доступен",
+      "address": "Адрес",
+      "address_value": "Ташкент, Ю"
+    },
+    "languagesData": [
+      { "title": "Узбекский", "degree": "Базовый", "percent": "100%" },
+      { "title": "Английский", "degree": "средний", "percent": "60%" },
+      { "title": "Русский", "degree": "B1-B2", "percent": "50%" }
+    ],
+    "skillsData": [
+      {
+        "title": "Html",
+        "degree": "95%",
+        "percent": "90%"
+      },
+      {
+        "title": "CSS",
+        "degree": "90%",
+        "percent": "90%"
+      },
+      {
+        "title": "JS",
+        "degree": "50%",
+        "percent": "50%"
+      },
+      {
+        "title": "React JS",
+        "degree": "85%",
+        "percent": "85%"
+      }
+    ], 
+    "extraSkillsData": [
+      "Bootstrap, Materialize",
+      "Sass препроцессор",
+      "Git и Github",
+      "Ant-design, Redux"
+    ]
+  }
+  

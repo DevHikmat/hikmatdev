@@ -1,0 +1,33 @@
+{
+    "left": {
+      "title": "Оставьте мне свои данные",
+      "fullname": "Ваше полное имя (Обязательно)",
+      "email": "Ваш Email (Обязательно)",
+      "subject": "Тема",
+      "message": "Ваше сообщение",
+      "button": "Отправить сообщение",
+      "buttonLoad": "Загрузка...",
+      "success_text": "Ваше сообщение отправлено.",
+      "notification_text": "Пожалуйста, заполните поля!"
+    },
+    "right": {
+      "title": "Контактная информация",
+      "country": "Страна",
+      "country_value": "Узбекистан",
+      "city": "Город",
+      "city_value": "Ташкент",
+      "region": "Регион",
+      "region_value": "Юнусабад, 6",
+      "email": "Электронная почта",
+      "email_value": "hikmatullo.mullajonov@gmail.com",
+      "instagram": "Инстаграм",
+      "instagram_value": "@hikmatullo_mullajonov",
+      "telegram": "Телеграм",
+      "telegram_value": "@devhikmat",
+      "personal1": "Личный 1",
+      "personal1_value": "+998 (94) 602 28 24",
+      "personal2": "Личный 2",
+      "personal2_value": "+998 (77) 257 80 08"
+    }
+  }
+  

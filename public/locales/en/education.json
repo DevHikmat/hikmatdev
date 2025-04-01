@@ -1,0 +1,27 @@
+{
+  "title": "Education",
+  "subtitle": "I have deepened my programming knowledge through university and various online courses. I use my scientific research and practical experience to create new projects.",
+  "educationData": [
+    {
+      "name": "Tashkent University of Information Technologies",
+      "year": "Sen 2017 - May 2021",
+      "level": "Bachelor of Computer Engineering",
+      "profession": "Student",
+      "description": "I developed my interest in programming as a student during my university days. During my studies, I studied algorithms, data structures, and programming languages. I focused on working with HTML, CSS, JavaScript, and React, especially in the field of web programming."
+    },
+    {
+      "name": "Fundamentals course (C++)",
+      "year": "2018 - 2019",
+      "level": "I understand how to solve algorithms.",
+      "profession": "Student",
+      "description": "By taking the Programming Fundamentals course, I gained a deeper understanding of algorithms. My knowledge of basic concepts, including conditional operators, loops, data structures, and recursion, was strengthened. This knowledge was also very useful in web programming, helping me to work effectively with technologies such as JavaScript and React. My approach to writing code effectively and solving problems systematically improved significantly."
+    },
+    {
+      "name": "Software engineer(Frontend) Course",
+      "year": "2019 - 2020",
+      "level": "Junior Web Developer",
+      "profession": "Student",
+      "description": "By taking a web programming course, I gained a deep understanding of the process of creating a website. I also gained experience in developing dynamic UIs with React. During the course, I mastered important concepts such as responsive design, working with APIs, and state management."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "fullname": "Hikmatullo Mullajonov",
+  "job": "Frontend Dasturchi",
+  "languages": "Tillar",
+  "skills": "Ko‘nikmalar",
+  "extra_skills": "Qo‘shimcha ko‘nikmalar",
+  "download": "Yuklab olish",
+  "privateData": {
+    "residence": "Yashash joyi",
+    "residence_value": "Kvartira",
+    "age": "Yosh",
+    "age_value": "{{age}}",
+    "freelance": "Frilans",
+    "freelance_value": "Mavjud",
+    "address": "Manzil",
+    "address_value": "Toshkent, Yu"
+  },
+  "languagesData": [
+    { "title": "O'zbek", "degree": "Asosiy", "percent": "100%" },
+    { "title": "Ingliz", "degree": "Intermediate", "percent": "60%" },
+    { "title": "Rus", "degree": "B1-B2", "percent": "50%" }
+  ],
+  "skillsData": [
+    {
+      "title": "HTML",
+      "degree": "95%",
+      "percent": "90%"
+    },
+    {
+      "title": "CSS",
+      "degree": "90%",
+      "percent": "90%"
+    },
+    {
+      "title": "JavaScript",
+      "degree": "50%",
+      "percent": "50%"
+    },
+    {
+      "title": "React JS",
+      "degree": "85%",
+      "percent": "85%"
+    }
+  ],
+  "extraSkillsData": [
+    "Bootstrap, Materialize",
+    "Sass pre-processor",
+    "Git & Github",
+    "Ant-design, Redux"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "sidebarItemsData": [
+      { "text": "Главная", "targetId": "hire", "icon": "house" },
+      { "text": "Услуги", "targetId": "services", "icon": "user-cog" },
+      { "text": "Рекомендации", "targetId": "recommend", "icon": "message-square-heart" },
+      { "text": "Образование", "targetId": "education", "icon": "graduation-cap" },
+      { "text": "Опыт", "targetId": "experience", "icon": "layers" },
+      { "text": "Портфолио", "targetId": "portfolio", "icon": "briefcase-business" },
+      { "text": "Блог", "targetId": "blog", "icon": "notebook-pen" },
+      { "text": "Контакты", "targetId": "contact", "icon": "contact" }
+    ]
+  }
+  

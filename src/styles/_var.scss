@@ -1,0 +1,27 @@
+// MAIN COLORS
+:root {
+  --primary: #ffb400;
+  --dark: #2b2b2b;
+  --secondary: #767676;
+  --light: #f0f0f6;
+  --success: #7eb942;
+  --white: #fff;
+  --custom-dark: #2b2b2b;
+}
+// Dark mode uchun ranglarni o'zgartirish
+body.dark {
+    --primary: #ffb400;
+    --dark: #fff;
+    --secondary: #767676;
+    --light: #343434;
+    --success: #7eb942;
+    --white: #2b2b2b;
+}
+// MAIN COLORS
+$primary: var(--primary);
+$dark: var(--dark);
+$secondary: var(--secondary);
+$light: var(--light);
+$success: var(--success);
+$white: var(--white);
+$custom-dark: var(--custom-dark);

@@ -1,0 +1,37 @@
+{
+  "title": "my services",
+  "subtitle": "Responsive websites, Frontend programming, Figma to Code, optimized code, API integration and web application creation.",
+  "hirebutton": "hire me",
+  "servicesData": [
+    {
+      "title": "Figma to code",
+      "desc": "I'll turn your ideas created in Figma into real web apps!",
+      "image": "Code"
+    },
+    {
+      "title": "Teach web programming",
+      "desc": "I have more than 3 years of experience in teaching.",
+      "image": "GraduationCap"
+    },
+    {
+      "title": "Adapt to the phone",
+      "desc": "Adapting web applications that have been created or are being created to the phone",
+      "image": "MonitorSmartphone"
+    },
+    {
+      "title": "Working with other code",
+      "desc": "Working with and analyzing other programmers' codes",
+      "image": "Braces"
+    },
+    {
+      "title": "API integration",
+      "desc": "Creating functional projects and connecting them to the backend",
+      "image": "MonitorUp"
+    },
+    {
+      "title": "Hosting",
+      "desc": "Upload the created web application to the server and connect the domain",
+      "image": "ScreenShare"
+    }
+  ]
+}

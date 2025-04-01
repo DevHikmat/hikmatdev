@@ -1,0 +1,33 @@
+{
+    "left": {
+      "title": "Menga ma'lumotingizni qoldiring",
+      "fullname": "To'liq ismingiz (Majburiy)",
+      "email": "Elektron pochtangiz (Majburiy)",
+      "subject": "Mavzu",
+      "message": "Xabaringiz",
+      "button": "Xabar yuborish",
+      "buttonLoad": "Yuklanmoqda...",
+      "success_text": "Sizning xabaringiz yuborildi.",
+      "notification_text": "Iltimos, maydonlarni toʻldiring!"
+    },
+    "right": {
+      "title": "Aloqa ma'lumotlari",
+      "country": "Mamlakat",
+      "country_value": "O‘zbekiston",
+      "city": "Shahar",
+      "city_value": "Toshkent",
+      "region": "Hudud",
+      "region_value": "Yunusobod, 6",
+      "email": "Elektron pochta",
+      "email_value": "hikmatullo.mullajonov@gmail.com",
+      "instagram": "Instagram",
+      "instagram_value": "@hikmatullo_mullajonov",
+      "telegram": "Telegram",
+      "telegram_value": "@devhikmat",
+      "personal1": "Shaxsiy 1",
+      "personal1_value": "+998 (94) 602 28 24",
+      "personal2": "Shaxsiy 2",
+      "personal2_value": "+998 (77) 257 80 08"
+    }
+  }
+  

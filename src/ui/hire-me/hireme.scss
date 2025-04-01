@@ -1,0 +1,65 @@
+@import "../../styles/var";
+.hire-me {
+  padding-top: 30px;
+}
+.hire-content {
+  .char {
+    transform: translateY(115px);
+    transition: transform 0.2s;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  background: url("../../static/images/me/small.png") no-repeat
+    calc(100% - 50px) center / contain;
+  display: flex;
+  background-color: $white;
+  padding: 0 60px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  column-gap: 20px;
+  .left {
+    padding-top: 93px;
+    padding-bottom: 74px;
+    max-width: 650px;
+    h1 {
+      overflow: hidden;
+      margin-bottom: 18px;
+      span {
+        color: $primary;
+      }
+    }
+    p {
+      margin-bottom: 30px;
+    }
+    .hire-link{
+      a {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 16px 32px;
+        border-radius: 5px;
+        background-color: $primary;
+        color: $custom-dark;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px;
+        &:hover svg {
+          transform: translateX(10px);
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 560px) {
+  .hire-content {
+    background-position: -30px -30px !important;
+    background-color: $white;
+    padding: 250px 15px 0 15px;
+    margin-bottom: 0;
+    .left {
+      a {
+        padding: 8px 20px;
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "title": "Xizmatlarim",
+    "subtitle": "Moslashuvchan veb-saytlar, Frontend dasturlash, Figma-dan kodga o‘tkazish, optimallashtirilgan kod, API integratsiyasi va veb-ilovalar yaratish.",
+    "hirebutton": "Meni yollang",
+    "servicesData": [
+      {
+        "title": "Figma-dan kodga",
+        "desc": "Figma-da yaratilgan g‘oyalaringizni haqiqiy veb-ilovalarga aylantiraman!",
+        "image": "Code"
+      },
+      {
+        "title": "Veb dasturlashni o‘rgatish",
+        "desc": "3 yildan ortiq o‘qitish tajribasiga egaman.",
+        "image": "GraduationCap"
+      },
+      {
+        "title": "Mobil moslashuv",
+        "desc": "Yaratilgan yoki yaratilayotgan veb-ilovalarni mobil qurilmalarga moslashtirish.",
+        "image": "MonitorSmartphone"
+      },
+      {
+        "title": "Boshqa kodlar bilan ishlash",
+        "desc": "Boshqa dasturchilarning kodlarini tahlil qilish va ular bilan ishlash.",
+        "image": "Braces"
+      },
+      {
+        "title": "API integratsiyasi",
+        "desc": "Funktsional loyihalar yaratish va ularni backend bilan bog‘lash.",
+        "image": "MonitorUp"
+      },
+      {
+        "title": "Hosting",
+        "desc": "Yaratilgan veb-ilovani serverga yuklash va domen bilan bog‘lash.",
+        "image": "ScreenShare"
+      }
+    ]
+  }
+  

@@ -1,0 +1,52 @@
+{
+    "title": "Portfolio",
+    "subtitle": "Zamonaviy dizayn, sezgir tartiblar va interaktiv foydalanuvchi tajribasini o'z ichiga olgan veb-ishlab chiqish loyihalarimni namoyish etaman. Albatta bu yerda shaxsiy yoki maxsus loyihalar qo'yilmagan.",
+    "portfolioData": [
+      {
+        "title": "Xosting",
+        "image": "/src/static/images/portfolio/hosting-app-figma.png",
+        "url": "https://hosting-website-kappa.vercel.app/"
+      },
+      {
+        "title": "Qubit",
+        "image": "/src/static/images/portfolio/qubit-app-figma.png",
+        "url": "https://qubit-swart.vercel.app/"
+      },
+      {
+        "title": "Cleaning X",
+        "image": "/src/static/images/portfolio/cleaning-x.png",
+        "url": "https://cleaning-x-h10.netlify.app/"
+      },
+      {
+        "title": "Portfolio shablon",
+        "image": "/src/static/images/portfolio/portfolio-template.png",
+        "url": "https://portfolio-in-netlify.netlify.app/"
+      },
+      {
+        "title": "Portfolio shablon",
+        "image": "/src/static/images/portfolio/portfolio-template2.png",
+        "url": "https://hikmatullo.netlify.app/"
+      },
+      {
+        "title": "Europrint",
+        "image": "/src/static/images/portfolio/europrint.png",
+        "url": "https://my-practice-in-pdp-academy.netlify.app/"
+      },
+      {
+        "title": "Appfast",
+        "image": "/src/static/images/portfolio/appfast.png",
+        "url": "https://appfast-me.netlify.app/"
+      },
+      {
+        "title": "Thompson Maktabi",
+        "image": "/src/static/images/portfolio/thompson.png",
+        "url": "https://thompson-school.netlify.app/"
+      },
+      {
+        "title": "Codecraft Markazi",
+        "image": "/src/static/images/portfolio/codecraft.png",
+        "url": "https://hungry-jackson-6622fa.netlify.app/"
+      }
+    ]
+  }
+  

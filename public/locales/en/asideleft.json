@@ -1,0 +1,51 @@
+{
+  "fullname": "Hikmatullo Mullajonov",
+  "job": "Frontend Developer",
+  "languages": "Languages",
+  "skills": "skills",
+  "extra_skills": "Extra Skills",
+  "download": "download",
+  "privateData": {
+    "residence": "Residence",
+    "residence_value": "Apartment",
+    "age": "Age",
+    "age_value": "{{age}}",
+    "freelance": "Freelance",
+    "freelance_value": "Available",
+    "address": "Address",
+    "address_value": "Tashkent, Yu"
+  },
+  "languagesData": [
+    { "title": "Uzbek", "degree": "Basic", "percent": "100%" },
+    { "title": "English", "degree": "intermediate", "percent": "60%" },
+    { "title": "Russian", "degree": "B1-B2", "percent": "50%" }
+  ],
+  "skillsData": [
+    {
+      "title": "Html",
+      "degree": "95%",
+      "percent": "90%"
+    },
+    {
+      "title": "CSS",
+      "degree": "90%",
+      "percent": "90%"
+    },
+    {
+      "title": "JS",
+      "degree": "50%",
+      "percent": "50%"
+    },
+    {
+      "title": "React JS",
+      "degree": "85%",
+      "percent": "85%"
+    }
+  ], 
+  "extraSkillsData": [
+    "Bootstrap, Materialize",
+    "Sass pre-processor",
+    "Git & Github",
+    "Ant-design, redux"
+  ]
+}

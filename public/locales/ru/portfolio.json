@@ -1,0 +1,52 @@
+{
+    "title": "Портфолио",
+    "subtitle": "Я представляю свои проекты в области веб-разработки, которые включают современный дизайн, адаптивные макеты и интерактивный пользовательский опыт. Конечно, здесь не представлены личные или приватные проекты.",
+    "portfolioData": [
+      {
+        "title": "Хостинг",
+        "image": "/src/static/images/portfolio/hosting-app-figma.png",
+        "url": "https://hosting-website-kappa.vercel.app/"
+      },
+      {
+        "title": "Qubit",
+        "image": "/src/static/images/portfolio/qubit-app-figma.png",
+        "url": "https://qubit-swart.vercel.app/"
+      },
+      {
+        "title": "Cleaning X",
+        "image": "/src/static/images/portfolio/cleaning-x.png",
+        "url": "https://cleaning-x-h10.netlify.app/"
+      },
+      {
+        "title": "Шаблон портфолио",
+        "image": "/src/static/images/portfolio/portfolio-template.png",
+        "url": "https://portfolio-in-netlify.netlify.app/"
+      },
+      {
+        "title": "Шаблон портфолио",
+        "image": "/src/static/images/portfolio/portfolio-template2.png",
+        "url": "https://hikmatullo.netlify.app/"
+      },
+      {
+        "title": "Europrint",
+        "image": "/src/static/images/portfolio/europrint.png",
+        "url": "https://my-practice-in-pdp-academy.netlify.app/"
+      },
+      {
+        "title": "Appfast",
+        "image": "/src/static/images/portfolio/appfast.png",
+        "url": "https://appfast-me.netlify.app/"
+      },
+      {
+        "title": "Thompson School",
+        "image": "/src/static/images/portfolio/thompson.png",
+        "url": "https://thompson-school.netlify.app/"
+      },
+      {
+        "title": "Codecraft Center",
+        "image": "/src/static/images/portfolio/codecraft.png",
+        "url": "https://hungry-jackson-6622fa.netlify.app/"
+      }
+    ]
+  }
+  

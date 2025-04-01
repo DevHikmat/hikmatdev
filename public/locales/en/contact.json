@@ -1,0 +1,32 @@
+{
+  "left": {
+    "title": "Leave me your info",
+    "fullname": "Your Full Name (Required)",
+    "email": "Your Email (Required)",
+    "subject": "Subject",
+    "message": "Your Message",
+    "button": "Send message",
+    "buttonLoad": "Loading...",
+    "success_text": "Your message has been sent.",
+    "notification_text": "Please fill in the fields !"
+  },
+  "right": {
+    "title": "Contact information",
+    "country": "Country",
+    "country_value": "Uzbekistan",
+    "city": "City",
+    "city_value": "Tashkent",
+    "region": "Region",
+    "region_value": "Yunusobod, 6",
+    "email": "Email",
+    "email_value": "hikmatullo.mullajonov@gmail.com",
+    "instagram": "Instagram",
+    "instagram_value": "@hikmatullo_mullajonov",
+    "telegram": "Telegram",
+    "telegram_value": "@devhikmat",
+    "personal1": "Personal 1",
+    "personal1_value": "+998 (94) 602 28 24",
+    "personal2": "Personal 2",
+    "personal2_value": "+998 (77) 257 80 08"
+  }
+}

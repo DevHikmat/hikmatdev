@@ -1,0 +1,13 @@
+{
+    "sidebarItemsData": [
+      { "text": "Bosh sahifa", "targetId": "hire", "icon": "house" },
+      { "text": "Xizmatlar", "targetId": "services", "icon": "user-cog" },
+      { "text": "Tavsiya", "targetId": "recommend", "icon": "message-square-heart" },
+      { "text": "Ta'lim", "targetId": "education", "icon": "graduation-cap" },
+      { "text": "Tajriba", "targetId": "experience", "icon": "layers" },
+      { "text": "Portfolio", "targetId": "portfolio", "icon": "briefcase-business" },
+      { "text": "Blog", "targetId": "blog", "icon": "notebook-pen" },
+      { "text": "Aloqa", "targetId": "contact", "icon": "contact" }
+    ]
+  }
+  

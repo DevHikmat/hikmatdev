@@ -1,0 +1,28 @@
+{
+    "title": "Ish tajribasi",
+    "subtitle": "Veb-dasturlash bo‘yicha tajribam davomida turli loyihalar ustida ishladim. Shuningdek, moslashuvchan dizayn va API integratsiyasi bo‘yicha tajriba orttirdim. Amaliy loyihalar orqali kod sifatini oshirishga e’tibor qaratdim.",
+    "experienceData": [
+      {
+        "name": "WEBSTAR IT ACADEMY",
+        "year": "01.05.2022",
+        "level": "Frontend Mentori",
+        "profession": "Mentor",
+        "description": "Ushbu yillar davomida veb-dasturlashdan dars berdim. Talabalarga HTML, CSS, JavaScript va React asoslarini o‘rgatdim hamda ularning bilimlarini amaliy mashg‘ulotlar orqali mustahkamlashlariga yordam berdim. O‘qitish jarayonida tushunarli va interaktiv usullardan foydalandim."
+      },
+      {
+        "name": "WEBSTAR IT ACADEMY",
+        "year": "2022-2023",
+        "level": "Webstar quiz ilovasining frontend qismi",
+        "profession": "Dasturiy muhandis & Mentor",
+        "description": "Quiz App loyihasining butun frontend qismini ishlab chiqdim va uni backend bilan integratsiya qildim. React va Ant-design yordamida moslashuvchan dizayn yaratdim, Redux orqali state managementni boshqardim. API orqali savollarni yuklab, foydalanuvchi natijalarini serverga yubordim."
+      },
+      {
+        "name": "WEBSTAR IT ACADEMY",
+        "year": "2023 - hozirgacha",
+        "level": "Webstar gamification ilovasining frontend qismi",
+        "profession": "Dasturiy muhandis & Mentor",
+        "description": "Webstar gamifikatsiya loyihasining maqsadi — ta’lim markazidagi talabalar orasida raqobat muhitini yaratish. Asosan, talabalar oy davomida bo‘limlar bo‘yicha test topshiradilar va bitta bo‘limda yetarlicha ball to‘plaganlaridan so‘ng keyingi bo‘lim avtomatik ravishda ochiladi. Eng muhimi, ular markazda qaysi bosqichda ekanliklarini kuzatib boradilar."
+      }
+    ]
+  }
+  

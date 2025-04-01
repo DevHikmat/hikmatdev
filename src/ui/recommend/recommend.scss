@@ -1,0 +1,65 @@
+@import "../../styles/var";
+.recommend{
+    .slick-track{
+        display: flex !important;
+        column-gap: 27px !important;
+    }
+    .slick-dots{
+       bottom: -50px;
+       li.slick-active{
+        button{
+            background-color: $dark;
+        }
+       }
+        button{
+            &::before{
+                display: none;
+            }
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: $primary;
+        }
+    }
+    padding-bottom: 120px;
+    &-item{
+        background-color: $white;
+        padding: 25px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 10px;
+        .stars{
+            margin-bottom: 16.63px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h4{
+            margin-bottom: 18px;
+        }
+        p{
+            margin-bottom: 30px;
+        }
+        &-foot{
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            img{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .info{
+                h4{
+                    margin: 0;
+                }
+                p{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

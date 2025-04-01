@@ -1,0 +1,51 @@
+@import "../../styles/var";
+.blog{
+    &-content{
+        display: flex;
+        gap: 20px;
+    }
+    &-item{
+        background-color: $white;
+        border-radius: 10px;
+        &-head{
+            height: 280px;
+            overflow: hidden;
+            border-radius: 10px 10px 0 0;
+            img{
+                border-radius: 10px 10px 0 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                transition: all 0.4s ease;
+            }
+        }
+        &-body{
+            padding: 25px;
+            h4{
+                margin-bottom: 8px;
+            }
+            p{
+                margin-bottom: 9px;
+            }
+            a{
+                color: $primary;
+                font-size: 18px;
+                line-height: 124%;
+                font-weight: 500;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 560px) {
+    .blog{
+        &-content{
+            flex-direction: column;
+        }
+        a{
+            font-size: 15px;
+        }
+    }
+}

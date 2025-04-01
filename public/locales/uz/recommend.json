@@ -1,0 +1,35 @@
+{
+    "title": "Tavsiyalar",
+    "subtitle": "Frontend dasturchi va mentor sifatidagi faoliyatim davomida iste’dodli insonlar bilan ishlash va ko‘plab talabalarni kasbiy rivojlanishida qo‘llab-quvvatlash baxtiga muyassar bo‘ldim.",
+    "recommendData": [
+      {
+        "name": "Muhammadali",
+        "title": "Ajoyib o‘qituvchi!",
+        "subtitle": "U juda yaxshi, mehnatsevar va fidoyi xodim bo‘lib, o‘z talabalarining ta’limiga juda katta e’tibor qaratadi.",
+        "profession": "Webstar Direktori",
+        "imageUrl": "/src/static/images/clients/muhammadali.jpg"
+      },
+      {
+        "name": "Muhammadbobur",
+        "title": "Mukammal natija!",
+        "subtitle": "Kasbiy yondashuv va ijodkorlikni o‘zida mujassam etgan dasturchi. Har bir mijoz ehtiyojini tushunib, ajoyib natijalar yaratadi.",
+        "profession": "Dasturiy muhandis",
+        "imageUrl": "/src/static/images/clients/muhammadbobur.jpg"
+      },
+      {
+        "name": "Jahongir",
+        "title": "Zo‘r sherik!",
+        "subtitle": "Juda professionallik va mas’uliyat bilan ishlaydi. Ish sifati yuqori va o‘z vaqtida topshiriladi. Dizayn va funksionallikni yaxshi tushunadi.",
+        "profession": "Fullstack dasturchi",
+        "imageUrl": "/src/static/images/clients/jahongir2.jpg"
+      },
+      {
+        "name": "Abduvali Nazirov",
+        "title": "U dasturlashni sevadi",
+        "subtitle": "Mayda detallarga katta e’tibor qaratadi, toza va tushunarli kod yozadi hamda yangi texnologiyalarni o‘rganish va qo‘llashdan qo‘rqmaydi.",
+        "profession": "Dasturiy muhandis",
+        "imageUrl": "/src/static/images/clients/Abduvali.jpg"
+      }
+    ]
+  }
+  
