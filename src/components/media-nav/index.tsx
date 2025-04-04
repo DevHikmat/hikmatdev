@@ -1,12 +1,20 @@
 import React from "react";
-const MediaNav = () => {
+import ChangeLang from "../change-lang";
+import { Moon, Sun } from "lucide-react";
+type MediaNavProps = {
+  isDarkMode: boolean;
+  themeToggler: () => void;
+};
+const MediaNav: React.FC<MediaNavProps> = ({ isDarkMode, themeToggler }) => {
   const hamburgerMenuToggler = (event: React.MouseEvent<SVGSVGElement>) => {
-    const asideLeft = document.querySelector("aside.first") as HTMLElement | null;
+    const asideLeft = document.querySelector(
+      "aside.first"
+    ) as HTMLElement | null;
     event.currentTarget.classList.toggle("active");
-    if(asideLeft && event.currentTarget.classList.contains("active")) {
-        asideLeft.style.left = '0';
-    } else if(asideLeft){
-        asideLeft.style.left = '-100%';
+    if (asideLeft && event.currentTarget.classList.contains("active")) {
+      asideLeft.style.left = "0";
+    } else if (asideLeft) {
+      asideLeft.style.left = "-100%";
     }
   };
   return (
@@ -27,6 +35,14 @@ const MediaNav = () => {
           d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
         />
       </svg>
+      <div className="big-options-mobile">
+        <div className="lang">
+          <ChangeLang isDarkMode={isDarkMode} />
+        </div>
+        <div className="theme" onClick={themeToggler}>
+          {isDarkMode ? <Sun /> : <Moon />}
+        </div>
+      </div>
     </nav>
   );
 };

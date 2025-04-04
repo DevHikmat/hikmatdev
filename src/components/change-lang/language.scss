@@ -1,12 +1,14 @@
 @import "../../styles/var";
 .change-lang{
     position: relative;
-    height: 30px;
+    height: 15px;
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     &-btn{
         img{
+            height: 15px;
             border-radius: 1px;
         }
     }
@@ -34,5 +36,11 @@
             background-color: #f0f0f0;
             color: $primary;
         }
+    }
+}
+@media only screen and (max-width: 560px) {
+    .change-lang{
+        height: 100%;
+        margin-bottom: 0 !important;
     }
 }

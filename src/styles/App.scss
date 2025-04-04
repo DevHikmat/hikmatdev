@@ -43,11 +43,9 @@ aside.first {
           width: 150px;
           height: 150px;
           border-radius: 50%;
-          background: url("../static/images/me/small.png") no-repeat -11px -10px /
-            cover;
+          background: url("/images/me/small.png") no-repeat 0 5px / cover;
           margin: 0 auto 31px auto;
-          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-            rgba(0, 0, 0, 0.005) 0px 18px 36px -18px inset;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
         }
         &-info {
           text-align: center;
@@ -182,6 +180,8 @@ article {
   margin-left: 305px;
   .wrapper {
     padding: 0 30px;
+    margin: 0 auto;
+    max-width: 1300px;
   }
 }
 aside.last {
@@ -309,30 +309,29 @@ aside.last {
     }
   }
   aside.last {
+    background-color: transparent !important;
     position: fixed;
+    z-index: 9;
     left: 0;
-    top: calc(100vh - 45px);
+    top: 0;
     border-top: 1px solid $light;
     width: 100vw;
     background-color: $white;
     .controlbar {
-      .big-options{
-        gap: 10px;
-        padding: 20px 15px 20px 10px;
-        border: 1px solid $primary;
-        border-radius: 5px 0 0 5px;
-        position: absolute;
-        background-color: $white;
-        top: -710px;
-        z-index: 99 !important;
-        right: 0;
-      }
+      min-height: 100vh;
+      position: relative;
       padding: 0 15px;
+      .big-options-laptop {
+        display: none;
+      }
       .controller {
+        background-color: $white;
         flex-direction: row;
         justify-content: space-between;
         gap: 0;
-        padding: 5px 0;
+        padding: 5px 15px;
+        position: absolute;
+        bottom: 0;
       }
     }
   }

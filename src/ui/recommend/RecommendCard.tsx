@@ -1,5 +1,4 @@
 import React from "react";
-import starImg from "../../static/images/Star.png";
 import { recommendItemType } from "../../types";
 interface RecommendCardProps {
   item: recommendItemType;
@@ -10,11 +9,11 @@ const RecommendCard: React.FC<RecommendCardProps> = ({ item }) => {
     <div className="recommend-item">
       <div>
       <div className="stars">
-        <img src={starImg} alt="star" />
-        <img src={starImg} alt="star" />
-        <img src={starImg} alt="star" />
-        <img src={starImg} alt="star" />
-        <img src={starImg} alt="star" />
+        <img src="/images/Star.png" alt="star" />
+        <img src="/images/Star.png" alt="star" />
+        <img src="/images/Star.png" alt="star" />
+        <img src="/images/Star.png" alt="star" />
+        <img src="/images/Star.png" alt="star" />
       </div>
       <h4>{title}</h4>
       <p>{subtitle}</p>

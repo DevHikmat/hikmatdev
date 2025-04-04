@@ -38,6 +38,7 @@ function App() {
   }, [isDarkMode]);
   useEffect(() => {
     if (!isDarkMode) document.body.classList.remove("dark");
+    else document.body.classList.toggle("dark");
     AOS.init({ duration: 1000, offset: 0 });
   }, []);
   return (
@@ -70,7 +71,7 @@ function App() {
           </div>
         </aside>
         <article>
-          <MediaNav />
+          <MediaNav themeToggler={themeToggler} isDarkMode={isDarkMode}/>
           <div className="wrapper">
             {ArticleItems.map((item, index) => (
               <div
@@ -86,7 +87,7 @@ function App() {
         <aside data-aos="fade-left" className="last">
           <div className="wrapper">
             <div className="controlbar">
-              <div className="big-options">
+              <div className="big-options-laptop">
                 <div className="lang">
                   <ChangeLang isDarkMode={isDarkMode} />
                 </div>

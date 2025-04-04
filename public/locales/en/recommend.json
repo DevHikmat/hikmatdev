@@ -7,28 +7,28 @@
       "title": "Great Teacher!",
       "subtitle": "He is a very good, hardworking, and dedicated employee, passionate about the education of his students.",
       "profession": "Webstar Director",
-      "imageUrl": "/src/static/images/clients/muhammadali.jpg"
+      "imageUrl": "/images/clients/muhammadali.jpg"
     },
     {
       "name": "Muhammadbobur",
       "title": "Perfect result!",
       "subtitle": "A programmer who combines a professional approach and creativity. He understands the needs of each client and creates amazing results.",
       "profession": "Software engineer",
-      "imageUrl": "/src/static/images/clients/muhammadbobur.jpg"
+      "imageUrl": "/images/clients/muhammadbobur.jpg"
     },
     {
       "name": "Jahongir",
       "title": "Great partner!",
       "subtitle": "Very professional and responsible programmer. High quality of work and on time delivery. Very good understanding of design and functionality.",
       "profession": "Fullstack developer",
-      "imageUrl": "/src/static/images/clients/jahongir2.jpg"
+      "imageUrl": "/images/clients/jahongir2.jpg"
     },
     {
       "name": "Abduvali Nazirov",
       "title": "He loves programming",
       "subtitle": "He has a great eye for detail, writes clean and understandable code, and is not afraid to learn and apply new things.",
       "profession": "Software engineer",
-      "imageUrl": "/src/static/images/clients/Abduvali.jpg"
+      "imageUrl": "/images/clients/Abduvali.jpg"
     }
   ]
 }

@@ -11,7 +11,7 @@ const PortfolioItem: React.FC<propsType> = ({ item }) => {
     <div className="portfolio-item">
       <a href={url} target="_blank">
         <p>
-          <img src={image} alt={url} />
+          <img src={image} alt={title} />
         </p>
         <div className="curtain">
           {title} <FontAwesomeIcon icon={faEye} />

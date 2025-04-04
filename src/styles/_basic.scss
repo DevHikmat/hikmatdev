@@ -1,20 +1,20 @@
 @import "./var";
 // select styles
-.change-lang{
+.change-lang {
   margin-bottom: 20px;
 }
-.css-1wy0on6{
+.css-1wy0on6 {
   display: none !important;
 }
-.css-19bb58m{
+.css-19bb58m {
   position: absolute;
   background-color: transparent;
   cursor: none;
 }
-.css-1ivurmz-control{
+.css-1ivurmz-control {
   min-height: auto !important;
 }
-.css-hlgwow{
+.css-hlgwow {
   padding: 0 !important;
 }
 body {
@@ -30,7 +30,13 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.my-services, .recommend, .education, .portfolio, .experience, .blog, .contact{
+.my-services,
+.recommend,
+.education,
+.portfolio,
+.experience,
+.blog,
+.contact {
   padding-top: 120px;
 }
 .heading-box {
@@ -62,8 +68,6 @@ footer {
         display: flex;
         align-items: center;
         gap: 21px;
-        p {
-        }
         span {
           font-size: 10px;
           line-height: 101%;
@@ -83,7 +87,7 @@ footer {
     }
   }
 }
-.media-nav{
+.media-nav {
   display: none;
 }
 @media only screen and (max-width: 560px) {
@@ -93,17 +97,46 @@ footer {
       flex-direction: column;
     }
   }
-  footer{
+  footer {
     margin-bottom: 30px;
   }
-  .media-nav{
+  .media-nav {
     height: 60px;
     position: sticky;
     top: 0;
-    z-index: 9;
+    z-index: 10;
     background-color: $white;
-    display: block;
-    svg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    .big-options-mobile {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .theme {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: $light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: $secondary;
+        cursor: pointer;
+      }
+      .change-lang {
+        &-menu{
+          padding: 10px;
+          width: auto;
+        }
+        &-item{
+          padding: 0;
+        }
+      }
+    }
+    svg {
       color: $dark;
     }
   }
@@ -124,11 +157,11 @@ footer {
   transform: rotate(180deg);
 }
 .line {
-  fill:none;
+  fill: none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
   stroke: $secondary;
   stroke-width: 5.5;
-  stroke-linecap:round;
+  stroke-linecap: round;
 }
 
 .ham8 .top {

@@ -7,21 +7,21 @@
         "description": "Основные принципы и практические примеры создания интерактивных пользовательских интерфейсов с использованием React.",
         "learnText": "Подробнее",
         "linkUrl": "https://react.dev/",
-        "imgUrl": "https://k2bindia.com/wp-content/uploads/2015/08/React.png"
+        "imgUrl": "/images/blog/React.png"
       },
       {
         "title": "Создание UI с Ant Design",
         "description": "Основные методы создания современных и адаптивных пользовательских интерфейсов с использованием Ant Design.",
         "learnText": "Подробнее",
         "linkUrl": "https://ant.design/",
-        "imgUrl": "https://joshuaavalon.io/static/b9ed8524d4fc3d0e0879cbd4d21419ea/bb8ee/cover.png"
+        "imgUrl": "/images/blog/cover.png"
       },
       {
         "title": "Подключение REST API",
         "description": "Интеграция фронтенда и бэкенда, обмен данными и процессы аутентификации через REST API.",
         "learnText": "Подробнее",
         "linkUrl": "https://developer.mozilla.org/ru/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
-        "imgUrl": "https://blog.treblle.com/content/images/2024/04/rest-api.png"
+        "imgUrl": "/images/blog/rest-api.png"
       }
     ]
   }

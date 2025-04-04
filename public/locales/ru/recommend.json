@@ -7,28 +7,28 @@
         "title": "Отличный учитель!",
         "subtitle": "Он очень хороший, трудолюбивый и преданный своему делу сотрудник, увлеченный образованием своих студентов.",
         "profession": "Директор Webstar",
-        "imageUrl": "/src/static/images/clients/muhammadali.jpg"
+        "imageUrl": "/images/clients/muhammadali.jpg"
       },
       {
         "name": "Мухаммадбобур",
         "title": "Идеальный результат!",
         "subtitle": "Программист, который сочетает в себе профессиональный подход и креативность. Он понимает потребности каждого клиента и создает потрясающие результаты.",
         "profession": "Инженер-программист",
-        "imageUrl": "/src/static/images/clients/muhammadbobur.jpg"
+        "imageUrl": "/images/clients/muhammadbobur.jpg"
       },
       {
         "name": "Джахонгир",
         "title": "Отличный партнер!",
         "subtitle": "Очень профессиональный и ответственный программист. Высокое качество работы и своевременная доставка. Отличное понимание дизайна и функциональности.",
         "profession": "Фулстек-разработчик",
-        "imageUrl": "/src/static/images/clients/jahongir2.jpg"
+        "imageUrl": "/images/clients/jahongir2.jpg"
       },
       {
         "name": "Абдували Назиров",
         "title": "Он любит программирование",
         "subtitle": "У него отличный глаз на детали, он пишет чистый и понятный код, а также не боится изучать и применять новые технологии.",
         "profession": "Инженер-программист",
-        "imageUrl": "/src/static/images/clients/Abduvali.jpg"
+        "imageUrl": "/images/clients/Abduvali.jpg"
       }
     ]
   }

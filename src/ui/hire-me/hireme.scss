@@ -8,7 +8,7 @@
     transition: transform 0.2s;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-  background: url("../../static/images/me/small.png") no-repeat
+  background: url("/images/me/small.png") no-repeat
     calc(100% - 50px) center / contain;
   display: flex;
   background-color: $white;
@@ -51,11 +51,13 @@
 }
 @media only screen and (max-width: 560px) {
   .hire-content {
-    background-position: -30px -30px !important;
+    background-position: 0 0 !important;
     background-color: $white;
-    padding: 250px 15px 0 15px;
+    padding: 450px 0 0 0;
     margin-bottom: 0;
     .left {
+      background-color: $white;
+      padding: 15px;
       a {
         padding: 8px 20px;
         font-size: 12px;

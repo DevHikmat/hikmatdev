@@ -7,21 +7,21 @@
         "description": "React yordamida interaktiv foydalanuvchi interfeyslarini yaratishning asosiy tamoyillari va amaliy misollari.",
         "learnText": "Batafsil",
         "linkUrl": "https://react.dev/",
-        "imgUrl": "https://k2bindia.com/wp-content/uploads/2015/08/React.png"
+        "imgUrl": "/images/blog/React.png"
       },
       {
         "title": "Ant Design bilan UI yaratish",
         "description": "Ant Design yordamida zamonaviy va moslashuvchan foydalanuvchi interfeyslarini yaratishning asosiy usullari.",
         "learnText": "Batafsil",
         "linkUrl": "https://ant.design/",
-        "imgUrl": "https://joshuaavalon.io/static/b9ed8524d4fc3d0e0879cbd4d21419ea/bb8ee/cover.png"
+        "imgUrl": "/images/blog/cover.png"
       },
       {
         "title": "REST API bilan bog‘lanish",
         "description": "Frontend va backend integratsiyasi, ma'lumotlar almashinuvi va autentifikatsiya jarayonlari REST API orqali.",
         "learnText": "Batafsil",
         "linkUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
-        "imgUrl": "https://blog.treblle.com/content/images/2024/04/rest-api.png"
+        "imgUrl": "/images/blog/rest-api.png"
       }
     ]
   }
