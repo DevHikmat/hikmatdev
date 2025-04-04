@@ -32,7 +32,7 @@ aside.first {
   height: 100vh;
   overflow-y: scroll;
   .wrapper {
-    padding: 30px 45px 25px 40px;
+    padding: 30px 45px 35px 40px;
     .sidebar {
       .line-under {
         border-bottom: 1.5px solid $light;
@@ -275,7 +275,7 @@ aside.last {
 @media only screen and (max-width: 560px) {
   aside.first {
     width: 100%;
-    z-index: 999;
+    z-index: 9;
     height: calc(100vh - 60px);
     top: 60px;
     left: -100%;
@@ -309,22 +309,21 @@ aside.last {
     }
   }
   aside.last {
-    background-color: transparent !important;
-    position: fixed;
-    z-index: 9;
-    left: 0;
-    top: 0;
     border-top: 1px solid $light;
-    width: 100vw;
     background-color: $white;
+    width: 100vw;
+    position: fixed;
+    top: calc(100vh - 70px);
+    left: 0;
+    z-index: 5;
+    height: 70px;
     .controlbar {
-      min-height: 100vh;
-      position: relative;
-      padding: 0 15px;
+      padding: 0 15px !important;
       .big-options-laptop {
         display: none;
       }
       .controller {
+        height: 70px;
         background-color: $white;
         flex-direction: row;
         justify-content: space-between;
