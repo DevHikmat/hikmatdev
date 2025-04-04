@@ -32,7 +32,7 @@ aside.first {
   height: 100vh;
   overflow-y: scroll;
   .wrapper {
-    padding: 30px 45px 35px 40px;
+    padding: 30px 45px 50px 40px;
     .sidebar {
       .line-under {
         border-bottom: 1.5px solid $light;
@@ -313,22 +313,23 @@ aside.last {
     background-color: $white;
     width: 100vw;
     position: fixed;
-    top: calc(100vh - 70px);
+    top: calc(100vh - 80px);
     left: 0;
     z-index: 5;
-    height: 70px;
+    height: 80px;
     .controlbar {
       padding: 0 15px !important;
       .big-options-laptop {
         display: none;
       }
       .controller {
-        height: 70px;
+        height: 80px;
         background-color: $white;
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-start;
         gap: 0;
-        padding: 5px 15px;
+        padding: 10px 15px 0 15px;
         position: absolute;
         bottom: 0;
       }
