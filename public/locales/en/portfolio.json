@@ -4,7 +4,7 @@
   "portfolioData": [
     {
       "title": "Hosting",
-      "image": "/src/static/images/portfolio/hosting-app-figma.png",
+      "image": "./src/static/images/portfolio/hosting-app-figma.png",
       "url": "https://hosting-website-kappa.vercel.app/"
     },
     {
