@@ -5,30 +5,39 @@ export const calculateAge = async (
   birthYear: number = 1998,
   birthMonth: number = 7,
   birthDay: number = 23
-): Promise<number | null> => {
+): Promise<number> => {
+  let currentYear: number;
+  let currentMonth: number;
+  let currentDay: number;
+
   try {
     const { data } = await axios.get<TimeApiResponse>(
       "https://www.timeapi.io/api/Time/current/zone?timeZone=UTC"
     );
-    const currentDate = new Date(`${data.year}-${data.month}-${data.day}`);
-    const currentYear = currentDate.getUTCFullYear();
-    const currentMonth = currentDate.getUTCMonth() + 1; // Oy 0 dan boshlanadi
-    const currentDay = currentDate.getUTCDate();
-    const age =
-      currentYear -
-      birthYear -
-      (currentMonth < birthMonth ||
-      (currentMonth === birthMonth && currentDay < birthDay)
-        ? 1
-        : 0);
-    return age;
+    currentYear = data.year;
+    currentMonth = data.month;
+    currentDay = data.day;
   } catch (error) {
-    console.error(
-      "Internet vaqti olinmadi, xatolik:",
+    console.warn(
+      "API orqali vaqt olinmadi, lokal vaqt ishlatilmoqda:",
       (error as Error).message
     );
-    return null;
+
+    const now = new Date();
+    currentYear = now.getFullYear();
+    currentMonth = now.getMonth() + 1;
+    currentDay = now.getDate();
   }
+
+  const age =
+    currentYear -
+    birthYear -
+    (currentMonth < birthMonth ||
+    (currentMonth === birthMonth && currentDay < birthDay)
+      ? 1
+      : 0);
+
+  return age;
 };
 export const changeAndSaveActiveIndex = () => {
   const navigateButtons =
