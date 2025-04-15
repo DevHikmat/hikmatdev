@@ -72,7 +72,7 @@ export const socialItems = [
   },
   { linkUrl: "https://x.com/Hikmatullo1663", icon: <Twitter size={15} /> },
   {
-    linkUrl: "https://www.linkedin.com/in/hikmatullo-mullajonov-413988216/",
+    linkUrl: "https://www.linkedin.com/in/hikmatullo-mullajonov/",
     icon: <Linkedin size={15} />,
   },
   {
